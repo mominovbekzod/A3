@@ -44,7 +44,7 @@ li a {
     line-height: normal;
 }
 
-.box-2 button {
+.A1 {
     font-size: 17px;
     border: none;
     display: inline-flex;
@@ -59,7 +59,9 @@ li a {
     width: 50px;
 }
 
-.box-1 h1 {
+.box-1 a {
+    text-align: center;
+    font-size: 32px;
     margin-top: 10px;
     margin-left: -28px;
     letter-spacing: 2px;
@@ -83,6 +85,7 @@ li a {
 }
 
 .box-3 button {
+    cursor: pointer;
     border: none;
     width: 135px;
     height: 44px;
@@ -97,6 +100,7 @@ li a {
 }
 
 .box-3 input {
+    width: 100%;
     border: none;
     outline: none;
     color: #000;
@@ -105,7 +109,9 @@ li a {
     font-weight: 400;
     line-height: normal;
 }
+
 .box-4 h1 {
+    text-align: center;
     position: absolute;
     margin-left: 30%;
     margin-top: 140px;
@@ -115,7 +121,8 @@ li a {
     font-weight: 500;
     line-height: normal;
 }
-.box-4 img{
-    margin-top: 30px;
+
+.box-4 img {
+    margin-top: 40px;
     margin-left: 100px;
 }
